@@ -17,4 +17,8 @@ export class Course {
      this.credits=credits;
  }
 
+  getDays(){
+      return this.days.join("/");
+  }
+
 }
